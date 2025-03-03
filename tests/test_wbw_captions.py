@@ -1,9 +1,9 @@
-"""Tests for the One-Word-Captions tool"""
+"""Tests for the Word-by-Word Captions tool"""
 import json
 import os
 import tempfile
 import pytest
-from owc.owc import (
+from wbw_captions.wbw_captions import (
     format_timestamp,
     split_text,
     preprocess_json_data,

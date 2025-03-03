@@ -1,7 +1,7 @@
 [project]
-name = "one-word-captions"
+name = "word-by-word-captions"
 version = "1.0.0"
-description = "Generate synchronized one-word captions for videos using WhisperX timestamps"
+description = "Generate synchronized word-by-word captions for videos using WhisperX timestamps"
 readme = "README.md"
 authors = [
     {name = "Xabi Ezpeleta"}
@@ -30,18 +30,18 @@ dev = [
 ]
 
 [project.scripts]
-owc = "owc.__main__:main"
+wbw-captions = "wbw_captions.__main__:main"
 
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.package-data]
-owc = ["py.typed"]
+wbw_captions = ["py.typed"]
 
 [project.urls]
-"Homepage" = "https://github.com/xezpeleta/one-word-captions"
-"Bug Tracker" = "https://github.com/xezpeleta/one-word-captions/issues"
+"Homepage" = "https://github.com/xezpeleta/word-by-word-captions"
+"Bug Tracker" = "https://github.com/xezpeleta/word-by-word-captions/issues"
 
 
 

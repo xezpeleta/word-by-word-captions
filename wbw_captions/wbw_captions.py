@@ -16,8 +16,8 @@ The script will generate HTML-styled SRT subtitles with precise word-level timin
 Then, `ffmpeg` is used to burn the subtitles onto the video.
 
 Usage:
-    wltvideo.py -h
-    wltvideo.py -v <video> -j <json> -o <output>
+    wbw-captions -h
+    wbw-captions -v <video> -j <json> -o <output>
 """
 
 import json
